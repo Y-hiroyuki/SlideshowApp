@@ -13,6 +13,10 @@
 		E919A45C26555E94006E5B9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E919A45A26555E94006E5B9B /* Main.storyboard */; };
 		E919A45E26555E95006E5B9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E919A45D26555E95006E5B9B /* Assets.xcassets */; };
 		E919A46126555E95006E5B9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E919A45F26555E95006E5B9B /* LaunchScreen.storyboard */; };
+		E919A46E26556102006E5B9B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E919A46D26556102006E5B9B /* ResultViewController.swift */; };
+		E93E3F0B265A83E000C8570E /* kiyomizu-yoru.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E93E3F0A265A83E000C8570E /* kiyomizu-yoru.jpeg */; };
+		E93E3F0E265A83F000C8570E /* kiyomizu-aki.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E93E3F0D265A83F000C8570E /* kiyomizu-aki.jpeg */; };
+		E93E3F11265A840500C8570E /* kiyomizu-huyu.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E93E3F10265A840500C8570E /* kiyomizu-huyu.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		E919A45D26555E95006E5B9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E919A46026555E95006E5B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E919A46226555E95006E5B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E919A46D26556102006E5B9B /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		E93E3F0A265A83E000C8570E /* kiyomizu-yoru.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kiyomizu-yoru.jpeg"; sourceTree = "<group>"; };
+		E93E3F0D265A83F000C8570E /* kiyomizu-aki.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kiyomizu-aki.jpeg"; sourceTree = "<group>"; };
+		E93E3F10265A840500C8570E /* kiyomizu-huyu.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kiyomizu-huyu.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				E919A45426555E94006E5B9B /* AppDelegate.swift */,
 				E919A45626555E94006E5B9B /* SceneDelegate.swift */,
 				E919A45826555E94006E5B9B /* ViewController.swift */,
+				E919A46D26556102006E5B9B /* ResultViewController.swift */,
 				E919A45A26555E94006E5B9B /* Main.storyboard */,
 				E919A45D26555E95006E5B9B /* Assets.xcassets */,
 				E919A45F26555E95006E5B9B /* LaunchScreen.storyboard */,
 				E919A46226555E95006E5B9B /* Info.plist */,
+				E93E3F0A265A83E000C8570E /* kiyomizu-yoru.jpeg */,
+				E93E3F0D265A83F000C8570E /* kiyomizu-aki.jpeg */,
+				E93E3F10265A840500C8570E /* kiyomizu-huyu.jpeg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -125,8 +137,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E919A46126555E95006E5B9B /* LaunchScreen.storyboard in Resources */,
+				E93E3F11265A840500C8570E /* kiyomizu-huyu.jpeg in Resources */,
 				E919A45E26555E95006E5B9B /* Assets.xcassets in Resources */,
+				E93E3F0E265A83F000C8570E /* kiyomizu-aki.jpeg in Resources */,
 				E919A45C26555E94006E5B9B /* Main.storyboard in Resources */,
+				E93E3F0B265A83E000C8570E /* kiyomizu-yoru.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +155,7 @@
 				E919A45926555E94006E5B9B /* ViewController.swift in Sources */,
 				E919A45526555E94006E5B9B /* AppDelegate.swift in Sources */,
 				E919A45726555E94006E5B9B /* SceneDelegate.swift in Sources */,
+				E919A46E26556102006E5B9B /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
