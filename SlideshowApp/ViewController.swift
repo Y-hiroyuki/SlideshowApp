@@ -45,10 +45,6 @@ class ViewController: UIViewController {
         kiyomizu1.image = UIImage(named:a)
     }
     
-    @IBAction func tapAction(_ sender: Any) {
-    }
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -85,14 +81,20 @@ class ViewController: UIViewController {
             back.isEnabled = true
         }
     }
+    @IBOutlet var tapAction: UITapGestureRecognizer!
+    @IBAction func tapAction(_ sender: Any) {
+    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
         let resultViewController:ResultViewController = segue.destination as! ResultViewController
         resultViewController.x = a
+        if startstop0.titleLabel?.text == "停止"{
+            startstop0.setTitle("再生", for:.normal)
+            self.timer.invalidate()
+        }
     }
     
     @IBAction func unwind(_ segue: UIStoryboardSegue){
     }
     
 }
-

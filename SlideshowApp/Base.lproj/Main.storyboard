@@ -93,6 +93,7 @@
                         <outlet property="go" destination="xfE-gg-32R" id="Kmu-Ru-fyl"/>
                         <outlet property="kiyomizu1" destination="Oun-OD-XNv" id="5WX-He-Ond"/>
                         <outlet property="startstop0" destination="JgY-EL-nMp" id="ned-SJ-XcF"/>
+                        <outlet property="tapAction" destination="vVB-Ov-6cZ" id="QC7-Aw-JwH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
